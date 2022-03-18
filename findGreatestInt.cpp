@@ -3,17 +3,24 @@
 int main()
 {
 	int a{}, b{}, c{};
+	
 	std::cout << "Input 1st Number  >> ";
 	std::cin >> a;
+	
 	std::cout << "\nInput 2nd Number >> ";
 	std::cin >> b;
+	
 	std::cout << "\nInput 3rd Number >> ";
 	std::cin >> c;
+	
 	if (a > b && a > c)
-		std::cout << "\nGreatest Number is >>  "<<a;
+		std::cout << "\nGreatest Number is >>  " << a << '\n';
+	
 	if (b > a && b > c)
-		std::cout << "\nGreatest Number is >>  " << b;
+		std::cout << "\nGreatest Number is >>  " << b << '\n';
+	
 	if (c > a && c > b)
-		std::cout << "\nGreatest Number is >>  " << c;
+		std::cout << "\nGreatest Number is >>  " << c << '\n';
+	
 	return 0;
 }
